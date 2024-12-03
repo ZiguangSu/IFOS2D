@@ -23,7 +23,7 @@
 #include "fd.h"
 #include "segy.h"
 #include <fftw3.h>
-
+//#include "fftw3.h"
 void  conv_FD(float * temp_TS, float * temp_TS1, float * temp_conv, int ns){
 
 	/* declaration of local variables */

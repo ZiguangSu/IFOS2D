@@ -22,7 +22,7 @@
 #define STRING_SIZE 74
 #define STRING_SIZE2 256
 #define REQUEST_COUNT 4
-#define WORKFLOW_MAX_VAR 13
+#define WORKFLOW_MAX_VAR 14
 
 /* declaration of functions */
 
@@ -534,6 +534,8 @@ float average_matrix(float ** matrix);
 float global_maximum(float ** gradiant_1);
 void write_matrix_disk(float ** gradient,char path_name[STRING_SIZE]);
 float matrix_product(float ** matrix1, float **matrix2);
+void get_local_from_global_matrix(float ** global_matrix,float ** local_matrix);
+float ** get_global_from_local_matrix(float ** local_matrix);
 
 /* L-BFGS */
 void lbfgs(float **grad1, float **grad2, float **grad3,float Vs_avg,float rho_avg,float Vp_avg, float *bfgsscale, float **bfgsmod, float **bfgsgrad,int bfgsnum,int bfgspar, int iteration, int * LBFGS_iter_start);

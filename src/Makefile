@@ -23,7 +23,7 @@ CC=mpicc
 LFLAGS=-lm -lcseife -lstfinv -laff -lfourierxx -lfftw3 -lstdc++
 CFLAGS=-O3
 SFLAGS=-L./../contrib/libcseife -L./../contrib/bin
-IFLAGS=-I./../contrib/libcseife -I./../contrib/header -I.
+IFLAGS=-I./../contrib/libcseife -I./../contrib/header -I. -I./../../../../software/fftw/fftw-3.3.10/api
 
 # LINUX with OpenMPI / IntelMPI and GCC Compiler
 #CC=mpicc

@@ -1,6 +1,6 @@
 # What is IFOS2D?
 
-
+This is and unofficial version of IFOS2D, making to fit into Ubuntu 20.04 and able to compile.
 **IFOS2D** (**I**nversion of **F**ull **O**bserved **S**eismograms) is a 2-D elastic full waveform inversion code.  
 The inversion problem is solved by a conjugate gradient method and the gradients are computed in the time domain by the adjoint state method.  
 The forward modeling is done by a time domain Finite-Difference scheme.
